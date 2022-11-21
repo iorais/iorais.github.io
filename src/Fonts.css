@@ -14,13 +14,9 @@ blu {
 
 .logo {
     background: url("./assets/isaaclogo.jpeg") no-repeat center center;
+    background-size: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    margin: auto;
-    padding: 1px 1px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
 }

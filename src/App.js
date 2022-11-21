@@ -1,6 +1,6 @@
 import Fonts from "./Fonts";
-import Navbar from "./homepage/Navbar";
-import Intro from "./homepage/Intro";
+import Navbar from "./Navbar";
+import Intro from "./Intro";
 import Footer from "./Footer";
 
 
