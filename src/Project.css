@@ -12,7 +12,7 @@
 card {
     box-shadow: 0 8px 8px 0 rgba(0,0,0,1);
     transition: 0.1s;
-    width: 650px;
+    width: 9000px;
     height: 500px;
     margin: 2%;
     border-color: white;
@@ -22,20 +22,26 @@ card {
 }
 
 card .preview {
-    background: url("./assets/isaaclogo.jpeg") no-repeat center center;
-    background-size: auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
+    border-color: rgba(0,0,0,0);
+    object-fit: cover;
     height: 100%;
     width: 50%;
     float: left;
     border-radius: 10px;
 }
 
+
 .description {
     width: 48%;
     height: 100%;
     float:right;
+    padding: 10px;
+}
+
+.description p1 {
+    font-size: 16pt;
+}
+
+.description p2 {
+    font-size: 14pt;
 }

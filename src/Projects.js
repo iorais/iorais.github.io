@@ -7,17 +7,20 @@ export default function Projects() {
             
             <div className="proj">
                 <card>
-                    <a href="https://devpost.com/software/nestnotifications"><div className="preview"/></a>
+                    <iframe className="preview" allowFullScreen
+                        src="https://www.youtube.com/embed/39aNTYJP-SQ">
+                        </iframe>
                     <div className="description">
-                        <p className="font-syncopate">
+                        <p1 className="font-syncopate">
                             <blu>Nest</blu>Notifcations
-                        </p>
-                        <p className="font-roboto">
-                            Locaion apps like findMy and Life360 are advertised for
+                        </p1>
+                        <br/><br/>
+                        <p2 className="font-roboto">
+                        Location apps like findMy and Life360 are advertised for
                             safety.
                             Often times, apps like these cause parents to peer into 
-                            their teen's social life, cuasing a toxic relationship.
-                            This can also lead to the teen to turn off the app all
+                            their teen's social life, causing a toxic relationship.
+                            This can also lead the teen to turn off the app all
                             together.
                             <br/><br/> 
                             My team and I wanted to create a location sharing app that
@@ -28,82 +31,25 @@ export default function Projects() {
                             This mobile app was developed for my very first hackathon. 
                             We were only able to finish within the time constraints 
                             because of our communication.
-                        </p>
+                        </p2>
                     </div>
                 </card>
                 <card>
-                    <a href="https://devpost.com/software/nestnotifications"><div className="preview"/></a>
+                    <iframe className="preview" allowFullScreen
+                        src="https://studio.code.org/projects/applab/PytrwcA-1kHTsWuHPw6mt1aRKfvBBnu_dVIV1eSF8c0">
+                        </iframe>
                     <div className="description">
-                        <p className="font-syncopate">
-                            <blu>Che</blu>ss
-                        </p>
-                        <p className="font-roboto">
-                            Locaion apps like findMy and Life360 are advertised for
-                            safety.
-                            Often times, apps like these cause parents to peer into 
-                            their teen's social life, cuasing a toxic relationship.
-                            This can also lead to the teen to turn off the app all
-                            together.
+                        <p1 className="font-syncopate">
+                            <blu>Chess</blu>
+                        </p1>
+                        <br/><br/>
+                        <p2 className="font-roboto">
+                           Chess
                             <br/><br/> 
-                            My team and I wanted to create a location sharing app that
-                            still emphasizes safety while prioritizing our users' 
-                            privacy. NestNotifcations puts more control in the hands of
-                            our users.
+                           I made chess
                             <br/><br/>
-                            This mobile app was developed for my very first hackathon. 
-                            We were only able to finish within the time constraints 
-                            because of our communication.
-                        </p>
-                    </div>
-                </card>
-                <card>
-                    <a href="https://devpost.com/software/nestnotifications"><div className="preview"/></a>
-                    <div className="description">
-                        <p className="font-syncopate">
-                            <blu>Dynamic</blu> Array
-                        </p>
-                        <p className="font-roboto">
-                            Locaion apps like findMy and Life360 are advertised for
-                            safety.
-                            Often times, apps like these cause parents to peer into 
-                            their teen's social life, cuasing a toxic relationship.
-                            This can also lead to the teen to turn off the app all
-                            together.
-                            <br/><br/> 
-                            My team and I wanted to create a location sharing app that
-                            still emphasizes safety while prioritizing our users' 
-                            privacy. NestNotifcations puts more control in the hands of
-                            our users.
-                            <br/><br/>
-                            This mobile app was developed for my very first hackathon. 
-                            We were only able to finish within the time constraints 
-                            because of our communication.
-                        </p>
-                    </div>
-                </card>
-                <card>
-                    <a href="https://devpost.com/software/nestnotifications"><div className="preview"/></a>
-                    <div className="description">
-                        <p className="font-syncopate">
-                            <blu>Who Let</blu> The Dogs Out?
-                        </p>
-                        <p className="font-roboto">
-                            Locaion apps like findMy and Life360 are advertised for
-                            safety.
-                            Often times, apps like these cause parents to peer into 
-                            their teen's social life, cuasing a toxic relationship.
-                            This can also lead to the teen to turn off the app all
-                            together.
-                            <br/><br/> 
-                            My team and I wanted to create a location sharing app that
-                            still emphasizes safety while prioritizing our users' 
-                            privacy. NestNotifcations puts more control in the hands of
-                            our users.
-                            <br/><br/>
-                            This mobile app was developed for my very first hackathon. 
-                            We were only able to finish within the time constraints 
-                            because of our communication.
-                        </p>
+                            This is chess
+                        </p2>
                     </div>
                 </card>
             </div>
