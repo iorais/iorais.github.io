@@ -8,9 +8,14 @@
     color: white;
 }
 
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
 blu {
     color:#30D5D5;
-  }
+}
 
 .logo {
     background: url("./assets/isaaclogo.jpeg") no-repeat center center;

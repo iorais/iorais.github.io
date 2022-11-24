@@ -2,6 +2,7 @@ import Fonts from "./Fonts";
 import Navbar from "./Navbar";
 import Intro from "./Intro";
 import Footer from "./Footer";
+import Projects from "./Projects";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Fonts />
       <Navbar />
       <Intro />
+      <Projects />
       <Footer />
     </div>
   )
