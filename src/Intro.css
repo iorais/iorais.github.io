@@ -1,0 +1,46 @@
+body {
+  background-color: #191919;
+}
+
+int1 {
+  font-size: 60pt;
+  float: left;
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 50px;
+}
+
+int2 {
+  float: right;
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-right: 15%;
+}
+
+int2 a2 {
+  float: right;
+}
+
+int2 .logo {
+  border-radius: 200px;
+  height: 400px;
+  width: 400px;
+}
+
+int2 a1 {
+  float: right;
+}
+
+int3 {
+  font-size: 50pt;
+  float: left;
+  padding: 10%;
+  padding-bottom: 100px;
+}
+
+int4 {
+  font-size: 20pt;
+  float: right;
+  align-self: center;
+  padding: 100px;
+}
