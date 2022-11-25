@@ -45,3 +45,10 @@ card .preview {
 .description p2 {
     font-size: 14pt;
 }
+
+.link {
+    float: right;
+    color: #30D5D5;
+    height: 30px;
+    width: 30px;
+}

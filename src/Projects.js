@@ -1,4 +1,7 @@
-import "./Project.css"
+import "./Project.css";
+import "./assets/chess.mp4";
+import { AiOutlineLink } from 'react-icons/ai';
+
 
 export default function Projects() {
     return ( 
@@ -8,12 +11,15 @@ export default function Projects() {
             <div className="proj">
                 <card>
                     <iframe className="preview" allowFullScreen
-                        src="https://www.youtube.com/embed/39aNTYJP-SQ">
-                        </iframe>
+                        src="https://www.youtube.com/embed/39aNTYJP-SQ?rel=0&controls=0">
+                    </iframe>
                     <div className="description">
                         <p1 className="font-syncopate">
                             <blu>Nest</blu>Notifcations
                         </p1>
+                        <a href="https://devpost.com/software/nestnotifications">
+                            <AiOutlineLink className="link"/>
+                        </a>
                         <br/><br/>
                         <p2 className="font-roboto">
                         Location apps like findMy and Life360 are advertised for
@@ -35,13 +41,16 @@ export default function Projects() {
                     </div>
                 </card>
                 <card>
-                    <iframe className="preview" allowFullScreen
-                        src="https://studio.code.org/projects/applab/PytrwcA-1kHTsWuHPw6mt1aRKfvBBnu_dVIV1eSF8c0">
-                        </iframe>
+                <iframe className="preview" allowFullScreen
+                        src="https://youtube.com/embed/QRhHHW0mFVU?rel=0&controls=0">
+                </iframe>
                     <div className="description">
                         <p1 className="font-syncopate">
                             <blu>Chess</blu>
                         </p1>
+                        <a href="https://studio.code.org/projects/applab/PytrwcA-1kHTsWuHPw6mt1aRKfvBBnu_dVIV1eSF8c0">
+                            <AiOutlineLink className="link"/>
+                        </a>
                         <br/><br/>
                         <p2 className="font-roboto">
                            Chess
