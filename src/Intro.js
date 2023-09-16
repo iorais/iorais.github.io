@@ -14,11 +14,17 @@ export default function Intro() {
             <int3 className="font-audiowide">
                 Welcome to my Website!
             </int3>
-            <int4 className="font-syncopate">
-                Currently, I am a <blu>sophomore</blu> at <b>Santa Clara University</b>. 
-                I am studying <blu>Computer Science and Engineering</blu> and I am loving it.
-                I enjoy <blu>programming and expanding</blu> as well as improving my skill set.
-                I am looking for an <b>internship</b> for <blu>Summer 2023</blu>.
+            <int4 className="font-roboto">
+                I’m junior at Santa Clara University School of Engineering studying Computer Science and Engineering.
+                <br></br>
+                <br></br>
+                When I'm not programming I enjoy coaching, practicing, and watching combat sports. 
+                Helping coach my high school’s wrestling team has been a humbling experience and inspired me to continue with my own grappling training. 
+                I've been learning Brazilian Jiu-Jitsu and more recently, Judo. I also love to watch the UFC events and try my best to keep up with college wrestling. 
+                <br></br>
+                <br></br>
+                I am looking for an internship in software engineering, robotics, or machine learning for summer 2024. 
+                If you have a position opening or would like to talk, you can reach me at isaacorais2002@gmail.com.
             </int4>
         </div>
     )

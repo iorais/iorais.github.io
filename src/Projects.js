@@ -10,54 +10,36 @@ export default function Projects() {
             
             <div className="proj">
                 <card>
+                    <p1 className="font-syncopate">
+                            <blu>Nest</blu>Notifcations
+                    </p1>
+                    <a href="https://devpost.com/software/nestnotifications">
+                        <AiOutlineLink className="link"/>
+                    </a>
                     <iframe className="preview" allowFullScreen
                         src="https://www.youtube.com/embed/39aNTYJP-SQ?rel=0&controls=0">
                     </iframe>
                     <div className="description">
-                        <p1 className="font-syncopate">
-                            <blu>Nest</blu>Notifcations
-                        </p1>
-                        <a href="https://devpost.com/software/nestnotifications">
-                            <AiOutlineLink className="link"/>
-                        </a>
-                        <br/><br/>
                         <p2 className="font-roboto">
-                        Location apps like findMy and Life360 are advertised for
-                            safety.
-                            Often times, apps like these cause parents to peer into 
-                            their teen's social life, causing a toxic relationship.
-                            This can also lead the teen to turn off the app all
-                            together.
-                            <br/><br/> 
-                            My team and I wanted to create a location sharing app that
-                            still emphasizes safety while prioritizing our users' 
-                            privacy. NestNotifcations puts more control in the hands of
-                            our users.
-                            <br/><br/>
-                            This mobile app was developed for my very first hackathon. 
-                            We were only able to finish within the time constraints 
-                            because of our communication.
+                            My team and I created a location sharing mobile app with a Flutter frontend and Flask backend.
+                            We placed 4th out of over 200 participants at INRIX Hack 2022.
                         </p2>
                     </div>
                 </card>
                 <card>
+                <p1 className="font-syncopate">
+                    <blu>Chess</blu>
+                </p1>
+                <a href="https://studio.code.org/projects/applab/PytrwcA-1kHTsWuHPw6mt1aRKfvBBnu_dVIV1eSF8c0">
+                    <AiOutlineLink className="link"/>
+                </a>
                 <iframe className="preview" allowFullScreen
                         src="https://youtube.com/embed/QRhHHW0mFVU?rel=0&controls=0">
                 </iframe>
                     <div className="description">
-                        <p1 className="font-syncopate">
-                            <blu>Chess</blu>
-                        </p1>
-                        <a href="https://studio.code.org/projects/applab/PytrwcA-1kHTsWuHPw6mt1aRKfvBBnu_dVIV1eSF8c0">
-                            <AiOutlineLink className="link"/>
-                        </a>
-                        <br/><br/>
                         <p2 className="font-roboto">
-                           Chess
-                            <br/><br/> 
-                           I made chess
-                            <br/><br/>
-                            This is chess
+                            I recreated the classic strategy board game in code.org app lab with JavaScript.
+                            This project won 2nd in the ACM Summer Challenge 2022.
                         </p2>
                     </div>
                 </card>

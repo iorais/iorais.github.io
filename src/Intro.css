@@ -23,8 +23,9 @@ int2 a2 {
 
 int2 .logo {
   border-radius: 200px;
-  height: 400px;
-  width: 400px;
+  height: 320px;
+  width: 320px;
+  justify-content: center;
 }
 
 int2 a1 {
@@ -42,5 +43,5 @@ int4 {
   font-size: 20pt;
   float: right;
   align-self: center;
-  padding: 100px;
+  padding: 2%;
 }
