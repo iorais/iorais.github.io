@@ -1,5 +1,4 @@
 import "./Project.css";
-import "./assets/chess.mp4";
 import { AiOutlineLink } from 'react-icons/ai';
 
 

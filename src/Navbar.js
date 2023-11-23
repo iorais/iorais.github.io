@@ -1,19 +1,36 @@
 import "./Navbar.css"
-import { FaReact } from 'react-icons/fa';
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 export default function Navbar() {
+	const navRef = useRef();
 
-    
-    return ( 
-        <div>
-            <nav className ="nav">
-                <button className="font-syncopate">Projects</button>
-                <button className="font-syncopate">Contact</button>
-                <button className="font-syncopate">Resume</button>
-                <p className="font-syncopate">
-                    built w/<blu>ReactJS<FaReact/></blu>
-                </p>
-            </nav>
-        </div>  
-    )
+	const showNavbar = () => {
+		navRef.current.classList.toggle(
+			"responsive_nav"
+		);
+	};
+
+	return (
+		<header>
+			<h3>LOGO</h3>
+			<nav ref={navRef}>
+				<a href="/#">Home</a>
+				<a href="/#">Projects</a>
+				<a href="/#">About me</a>
+				<button
+					className="nav-btn nav-close-btn"
+					onClick={showNavbar}>
+					<FaTimes />
+				</button>
+			</nav>
+			<button
+				className="nav-btn"
+				onClick={showNavbar}>
+				<FaBars />
+			</button>
+		</header>
+	);
 }
+
+// code used from https://github.com/Index-Zero-0/Responsive-navbar-ReactJS
