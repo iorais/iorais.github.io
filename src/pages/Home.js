@@ -1,6 +1,6 @@
-import "./Intro.css"
+import "./Home.css"
 
-export default function Intro() {
+export default function Home() {
     return (
         
         <div>

@@ -1,8 +1,8 @@
 import Fonts from "./Fonts";
-import Navbar from "./Navbar";
-import Intro from "./Intro";
-import Footer from "./Footer";
-import Projects from "./Projects";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Footer from "./components/Footer";
+import Projects from "./pages/Projects";
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <div>
       <Fonts />
       <Navbar />
-      <Intro />
+      <Home />
       <Projects />
       <Footer />
     </div>
