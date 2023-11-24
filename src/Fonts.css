@@ -25,3 +25,12 @@ blu {
     -ms-background-size: cover;
     -o-background-size: cover;
 }
+
+.logo2 {
+    background: url("./assets/isaaclogo2.JPG") no-repeat center center;
+    background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+}

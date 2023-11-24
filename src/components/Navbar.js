@@ -13,11 +13,12 @@ export default function Navbar() {
 
 	return (
 		<header>
-			<h3>LOGO</h3>
-			<nav ref={navRef}>
-				<a href="/#">Home</a>
-				<a href="/#">Projects</a>
-				<a href="/#">About me</a>
+            <div className="logo2"/>
+			<nav className="font-syncopate" ref={navRef}>
+				<a href="/home">Home</a>
+				<a href="/projects">Projects</a>
+				<a href="/resume">Resume</a>
+				<a href="/test">Test</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
