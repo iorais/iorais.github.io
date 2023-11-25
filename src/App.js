@@ -1,7 +1,9 @@
-import Fonts from "./Fonts";
+import Fonts from "./components/Fonts";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Projectcard from "./components/Projectcard";
+
+import Education from "./components/Education";
+
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
@@ -19,13 +21,7 @@ function App() {
           <Route path="/home" element={<Home/>}/>
           <Route path="/projects" element={<Projects/>}/>
           <Route path="/resume" element={<Resume/>}/>
-          <Route path="/test" element=  {
-            <Projectcard 
-              title="Hello" 
-              video="https://www.youtube.com/embed/39aNTYJP-SQ?rel=0&controls=0"
-              link="https://devpost.com/software/nestnotifications"
-              description="testing" />
-          }/>
+          <Route path="/test" element={<Education/>}/>
         </Routes>
       </BrowserRouter>
       <Footer/>

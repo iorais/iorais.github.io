@@ -1,0 +1,16 @@
+.res {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50pt;
+    display: flex;
+    justify-content: center;
+}
+
+.font-roboto body {
+    padding: 30px;
+}

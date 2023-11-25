@@ -18,7 +18,7 @@ blu {
 }
 
 .logo {
-    background: url("./assets/isaaclogo.jpeg") no-repeat center center;
+    background: url("../assets/isaaclogo.jpeg") no-repeat center center;
     background-size: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -27,7 +27,7 @@ blu {
 }
 
 .logo2 {
-    background: url("./assets/isaaclogo2.JPG") no-repeat center center;
+    background: url("../assets/isaaclogo2.JPG") no-repeat center center;
     background-size: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
