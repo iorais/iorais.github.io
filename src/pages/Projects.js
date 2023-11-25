@@ -17,7 +17,7 @@ export default function Projects() {
 
     return ( 
         <div>
-            <h1 className="font-audiowide">Projects</h1>
+            <div className="proj"><h1 className="font-audiowide">Projects</h1></div>
             <div className="proj">
                 {projectList.map((project) => (
                     <Projectcard

@@ -15,15 +15,9 @@ function App() {
     <div>
       <Fonts/>
       <Navbar/>
-      <BrowserRouter>
-        <Routes>
-          <Route index element={<Home/>}/>
-          <Route path="/home" element={<Home/>}/>
-          <Route path="/projects" element={<Projects/>}/>
-          <Route path="/resume" element={<Resume/>}/>
-          <Route path="/test" element={<Education/>}/>
-        </Routes>
-      </BrowserRouter>
+      <Home/>
+      <Projects/>
+      <Resume/>
       <Footer/>
     </div>
   )
