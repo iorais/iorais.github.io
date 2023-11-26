@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b21cb975.css",
+    "main.js": "/static/js/main.a3936f71.js",
+    "static/js/787.8c5fa7cc.chunk.js": "/static/js/787.8c5fa7cc.chunk.js",
+    "static/media/isaaclogo.jpeg": "/static/media/isaaclogo.24ee97cde7e803e9438a.jpeg",
+    "static/media/isaaclogo2.JPG": "/static/media/isaaclogo2.f8f2e63615012150b4b7.JPG",
+    "index.html": "/index.html",
+    "main.b21cb975.css.map": "/static/css/main.b21cb975.css.map",
+    "main.a3936f71.js.map": "/static/js/main.a3936f71.js.map",
+    "787.8c5fa7cc.chunk.js.map": "/static/js/787.8c5fa7cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b21cb975.css",
+    "static/js/main.a3936f71.js"
+  ]
+}
