@@ -36,7 +36,7 @@ int3 {
   font-size: 50pt;
   float: left;
   padding: 10%;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 
 int4 {
@@ -44,4 +44,24 @@ int4 {
   float: right;
   align-self: center;
   padding: 2%;
+}
+
+@media only screen and (max-width: 780px) {
+  int1 {
+    font-size: 45px;
+  }
+
+  int2 .logo{
+    height: 250px;
+    width: 250px;
+  }
+
+  int3 {
+    font-size: 30pt;
+  }
+
+  int4 {
+    font-size: 14pt;
+  }
+
 }

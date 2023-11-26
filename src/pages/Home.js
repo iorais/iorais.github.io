@@ -6,14 +6,14 @@ export default function Home() {
         
         <Element name="Home">
             <div>
-                <int1 className="font-audiowide">
+                <int1 className="font-syncopate">
                     HEL<blu>LO,</blu><br/>
                     I AM <blu>ISAAC</blu>
                 </int1>
                 <int2>
                     <a1 className="logo" />
                 </int2>
-                <int3 className="font-audiowide">
+                <int3 className="font-syncopate">
                     Welcome to my Website!
                 </int3>
                 <int4 className="font-roboto">

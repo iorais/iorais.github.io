@@ -10,3 +10,9 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+@media only screen and (max-width: 780px) {
+    h1 {
+        font-size: 35pt;
+    }
+  }

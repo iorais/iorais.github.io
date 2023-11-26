@@ -6,15 +6,12 @@ import {Link} from "react-scroll";
 export default function Navbar() {
 	const navRef = useRef();
 
-	const handleClick = (to) => {
-		console.log(to);
-		showNavbar();
-	}
-
 	const showNavbar = () => {
-		navRef.current.classList.toggle(
-			"responsive_nav"
-		);
+		if(window.screen.width <= 780){
+			navRef.current.classList.toggle(
+				"responsive_nav"
+			);
+		}
 	};
 
 	return (
@@ -28,23 +25,26 @@ export default function Navbar() {
     				smooth={true} 
     				offset={0} 
     				duration={500} 
-    				onSetActive={showNavbar}>Home</Link>
+    				onSetActive={()=>{}}
+					onClick={showNavbar}>Home</Link>
 				<Link       
 					activeClass="active" 
     				to="Projects" 
     				spy={true} 
     				smooth={true} 
-    				offset={-70} 
+    				offset={-80} 
     				duration={500} 
-    				onSetActive={showNavbar}>Projects</Link>
+    				onSetActive={()=>{}}
+					onClick={showNavbar}>Projects</Link>
 				<Link       
 					activeClass="active" 
     				to="Resume" 
     				spy={true} 
     				smooth={true} 
-    				offset={-70} 
+    				offset={-80} 
     				duration={500} 
-    				onSetActive={showNavbar}>Resume</Link>
+    				onSetActive={()=>{}}
+					onClick={showNavbar}>Resume</Link>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

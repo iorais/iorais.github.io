@@ -4,7 +4,7 @@ import {Element} from "react-scroll";
 export default function Resume() {
     return ( 
         <Element name="Resume" className="font-roboto">
-            <h1 className="font-audiowide">Resume</h1>
+            <h1 className="font-syncopate"><blu>Resume</blu></h1>
             <body>
                 <p><blu>EDUCATION</blu></p>
                 <br/>

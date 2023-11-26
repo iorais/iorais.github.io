@@ -4,6 +4,12 @@ import {Element} from "react-scroll";
 
 export default function Projects() {
     const projectList = [
+        {
+            title: "PB&J (Park, Bus, and Jam)",
+            link: "https://devpost.com/software/app-h2mex7",
+            video: "https://www.youtube.com/embed/GFKy2b_VfmI?si=aPYVwL8iNwYGn9wX",
+            description: " PB&J designs a full trip including commuting to a parking space and taking public transit to your concert venue. This mobile app won 3rd out of over 300 participants at INRIX Hack 2023."
+        },
         {   title: "NestNotifications", 
             link: "https://devpost.com/software/nestnotifications",
             video: "https://www.youtube.com/embed/39aNTYJP-SQ?rel=0&controls=0",
@@ -18,7 +24,7 @@ export default function Projects() {
 
     return ( 
         <Element name="Projects" className="proj">
-                <h1 className="font-audiowide">Projects</h1>
+                <h1 className="font-syncopate"><blu><strong>Projects</strong></blu></h1>
                 <div className="proj">
                     {projectList.map((project) => (
                         <Projectcard
