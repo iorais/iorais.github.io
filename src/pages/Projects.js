@@ -10,6 +10,12 @@ export default function Projects() {
             video: "https://www.youtube.com/embed/GFKy2b_VfmI?si=aPYVwL8iNwYGn9wX",
             description: " PB&J designs a full trip including commuting to a parking space and taking public transit to your concert venue. This mobile app won 3rd out of over 300 participants at INRIX Hack 2023."
         },
+        {
+            title: "Vertical Profiler (AUV)",
+            link: "https://www.linkedin.com/feed/update/urn:li:activity:7109300367397425152/",
+            video: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7109300133057495040",
+            description: "Over the summer of 2023, I helped develop an autonmous vertical profiler with a PI controller. It dives to user-specified depths to collect data."
+        },
         {   title: "NestNotifications", 
             link: "https://devpost.com/software/nestnotifications",
             video: "https://www.youtube.com/embed/39aNTYJP-SQ?rel=0&controls=0",
