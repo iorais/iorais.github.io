@@ -1,8 +1,9 @@
-import "./Resume.css"
+import "./Resume.css";
+import {Element} from "react-scroll";
 
 export default function Resume() {
     return ( 
-        <div className="font-roboto">
+        <Element name="Resume" className="font-roboto">
             <h1 className="font-audiowide">Resume</h1>
             <body>
                 <p><blu>EDUCATION</blu></p>
@@ -73,6 +74,6 @@ export default function Resume() {
                 <p>Board Games — 2nd at SCU ACM’s Summer Challenge 2022</p>
                 <ul><li>Developed 3 local multiplayer board games: TicTacToe, Connect4, and Chess w/JavaScript in code.org app lab.</li></ul>
             </body>
-        </div>
+        </Element>
     )
 }

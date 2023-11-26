@@ -1,5 +1,6 @@
 import "./Project.css";
 import Projectcard from "../components/Projectcard";
+import {Element} from "react-scroll";
 
 export default function Projects() {
     const projectList = [
@@ -16,18 +17,18 @@ export default function Projects() {
     ];
 
     return ( 
-        <div>
-            <div className="proj"><h1 className="font-audiowide">Projects</h1></div>
-            <div className="proj">
-                {projectList.map((project) => (
-                    <Projectcard
-                        title={project.title}
-                        link={project.link}
-                        video={project.video}
-                        description={project.description}
-                    />
-                ))}
-            </div>
-        </div>
+        <Element name="Projects" className="proj">
+                <h1 className="font-audiowide">Projects</h1>
+                <div className="proj">
+                    {projectList.map((project) => (
+                        <Projectcard
+                            title={project.title}
+                            link={project.link}
+                            video={project.video}
+                            description={project.description}
+                        />
+                    ))}
+                </div>
+        </Element>
     )
 }

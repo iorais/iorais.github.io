@@ -17,10 +17,22 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	height: 80px;
+	width: 100%;
 	padding: 0 2rem;
 	background-color: var(--mainColor);
 	color: var(--textColor);
     background-image: var(--mainImage);
+	position: fixed;
+}
+nav div {
+	margin: 0 1rem;
+	color: var(--textColor);
+	background-color: rgba(0, 0, 0, 0);
+	text-decoration: none;
+}
+
+nav div:hover {
+	color: var(--secondaryColor);
 }
 
 nav a {

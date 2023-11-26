@@ -1,9 +1,15 @@
 import "./Navbar.css"
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import {Link} from "react-scroll";
 
 export default function Navbar() {
 	const navRef = useRef();
+
+	const handleClick = (to) => {
+		console.log(to);
+		showNavbar();
+	}
 
 	const showNavbar = () => {
 		navRef.current.classList.toggle(
@@ -15,10 +21,30 @@ export default function Navbar() {
 		<header>
             <div className="logo2"/>
 			<nav className="font-syncopate" ref={navRef}>
-				<a href="/home">Home</a>
-				<a href="/projects">Projects</a>
-				<a href="/resume">Resume</a>
-				<a href="/test">Test</a>
+				<Link       
+					activeClass="active" 
+    				to="Home" 
+    				spy={true} 
+    				smooth={true} 
+    				offset={0} 
+    				duration={500} 
+    				onSetActive={showNavbar}>Home</Link>
+				<Link       
+					activeClass="active" 
+    				to="Projects" 
+    				spy={true} 
+    				smooth={true} 
+    				offset={-70} 
+    				duration={500} 
+    				onSetActive={showNavbar}>Projects</Link>
+				<Link       
+					activeClass="active" 
+    				to="Resume" 
+    				spy={true} 
+    				smooth={true} 
+    				offset={-70} 
+    				duration={500} 
+    				onSetActive={showNavbar}>Resume</Link>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
