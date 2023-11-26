@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.9135573d.css",
-    "main.js": "/static/js/main.f9348d12.js",
+    "main.js": "/static/js/main.72e5c50f.js",
     "static/js/787.8c5fa7cc.chunk.js": "/static/js/787.8c5fa7cc.chunk.js",
     "static/media/isaaclogo.jpeg": "/static/media/isaaclogo.24ee97cde7e803e9438a.jpeg",
     "static/media/isaaclogo2.JPG": "/static/media/isaaclogo2.f8f2e63615012150b4b7.JPG",
     "index.html": "/index.html",
     "main.9135573d.css.map": "/static/css/main.9135573d.css.map",
-    "main.f9348d12.js.map": "/static/js/main.f9348d12.js.map",
+    "main.72e5c50f.js.map": "/static/js/main.72e5c50f.js.map",
     "787.8c5fa7cc.chunk.js.map": "/static/js/787.8c5fa7cc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9135573d.css",
-    "static/js/main.f9348d12.js"
+    "static/js/main.72e5c50f.js"
   ]
 }
